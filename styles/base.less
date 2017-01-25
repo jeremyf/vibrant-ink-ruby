@@ -124,8 +124,7 @@ atom-text-editor .is-focused .line.cursor-line {
   font-style: italic;
 }
 
-.syntax--meta.syntax--tag.syntax--inline.syntax--any.syntax--html,
-.syntax--meta.syntax--tag.syntax--block.syntax--any.syntax--html {
+.syntax--meta.syntax--tag.syntax--html {
   color: #FF6600;
 }
 
@@ -176,12 +175,16 @@ atom-text-editor .is-focused .line.cursor-line {
   color: #FF6600;
 }
 
-.syntax--embedded.line {
+.syntax--meta.syntax--embedded.syntax--line {
   color: #FFFFFF;
 }
 
 .syntax--punctuation.syntax--embedded {
-  color: #66FF00;
+  color: #FFFFFF;
+}
+
+.syntax--string.syntax--interpolated .syntax--punctuation.syntax--embedded {
+  color: #FF6600;
 }
 
 .syntax--punctuation.syntax--separator.syntax--inheritance,
