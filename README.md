@@ -4,7 +4,7 @@ This is a Ruby-optimized version of [cherring/vibrant-ink](https://github.com/ch
 
 E.g. syntax highlighting for constants, class names and embedded variables in interpolated strings were added.
 
-![Screen shot of Vibrant Ink](/../screenshot/screenshot/vibrant-ink-ruby.png)
+![Screen shot of Vibrant Ink](https://github.com/dfherr/vibrant-ink-ruby/blob/screenshot/screenshot/vibrant-ink-ruby.png)
 
 ## Installation
 
