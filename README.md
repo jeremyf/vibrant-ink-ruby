@@ -1,10 +1,10 @@
 # vibrant-ink theme
 
-This is an ruby-optimized version of [cherring/vibrant-ink](https://github.com/cherring/vibrant-ink)
+This i an ruby-optimized version of [cherring/vibrant-ink](https://github.com/cherring/vibrant-ink)
 
 E.g. syntax highlighting for constants, class names and embedded variables in interpolated strings were added.
 
-![Screen shot of Vibrant Ink](/screenshot/vibrant-ink-ruby.png)
+![Screen shot of Vibrant Ink](/../screenshot/screenshot/vibrant-ink-ruby.png)
 
 ## Installation
 
