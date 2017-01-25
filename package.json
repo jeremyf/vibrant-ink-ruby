@@ -1,12 +1,12 @@
 {
   "name": "vibrant-ink-ruby",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": false,
   "description": "A Ruby-optimized version of cherring/vibrant-ink",
   "repository": "https://github.com/dfherr/vibrant-ink-ruby",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.0.0"
   }
 }
