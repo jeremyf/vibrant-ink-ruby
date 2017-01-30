@@ -25,6 +25,12 @@ atom-text-editor .is-focused .line.cursor-line {
   background-color: @line-highlight;
 }
 
+/* fix bracket matcher not drawn on highlight */
+.bracket-matcher {
+    z-index: 1;
+    position: absolute;
+}
+
 .syntax--constant.syntax--numeric {
   color: @number;
 }
