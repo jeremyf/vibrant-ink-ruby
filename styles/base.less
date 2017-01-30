@@ -22,6 +22,12 @@
 .editor.is_focused .line-number.cursor-line-selection, .editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
   background-color: #17201a;
 }
+/* fix bracket-matcher not shown on highlight */
+.bracket-matcher {
+    z-index: 1;
+    position: absolute;
+}
+
 
 .constant.numeric {
   color: #CCFF33;
