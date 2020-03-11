@@ -220,9 +220,13 @@ atom-text-editor .is-focused .line.cursor-line {
 
 .syntax--md .syntax--quote {
   font-style: italic;
-  color: darken(@white, 20%)
+  color: darken(@text, 20%)
+}
+
+.syntax--md .syntax--list {
+  color: @string;
 }
 
 .syntax--md .syntax--code {
-  color: @blue;
+  color: @regex;
 }
