@@ -199,11 +199,16 @@ atom-text-editor .is-focused .line.cursor-line {
 }
 
 .syntax--emphasis.syntax--italic {
-  color: @magenta;
+  color: @keyword-other;
   font-style: italic;
 }
 
 .syntax--strong.syntax--bold {
-  color: @orange;
+  color: @keyword;
   font-weight: bold;
+}
+
+// Highlight HTML tag declrations
+.syntax--tag.syntax--begin, .syntax--tag.syntax--name, .syntax--tag.syntax--end {
+  color: @keyword;
 }
