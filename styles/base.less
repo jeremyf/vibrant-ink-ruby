@@ -106,7 +106,7 @@ atom-text-editor .is-focused .line.cursor-line {
 }
 
 .syntax--string.syntax--interpolated {
-  color: #66FF00;
+  color: @string;
 }
 
 .syntax--string.syntax--regexp {
@@ -216,4 +216,13 @@ atom-text-editor .is-focused .line.cursor-line {
 .syntax--strike.syntax--md {
   text-decoration: line-through;
   color: @comment;
+}
+
+.syntax--md .syntax--quote {
+  font-style: italic;
+  color: darken(@white, 20%)
+}
+
+.syntax--md .syntax--code {
+  color: @blue;
 }
