@@ -16,4 +16,4 @@ $stdout.puts "Hello World"
 
 [1]:https://wikipedia.org
 
-{{% hugo_short_code param="hello" %}}With hugo short code{{% /hugo_short_code %}}
+{{% hugo_short_code param="Hello [link](https://takeonrules.com)" %}}With hugo short code{{% /hugo_short_code %}}
