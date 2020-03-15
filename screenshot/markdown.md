@@ -15,3 +15,5 @@ $stdout.puts "Hello World"
 * And **bold** text
 
 [1]:https://wikipedia.org
+
+{{% hugo_short_code %}}With hugo short code{{% /hugo_short_code %}}
