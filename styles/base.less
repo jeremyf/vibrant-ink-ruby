@@ -248,6 +248,10 @@ atom-text-editor .is-focused .line.cursor-line {
   color: @code;
 }
 
-.syntax--hugo.syntax--code, .syntax--hugo.syntax--key {
-  color: lighten(@code, 15%);
+.syntax--hugo.syntax--code {
+  color: lighten(@code, 10%);
+}
+
+.syntax--hugo.syntax--code.syntax--value {
+  color: lighten(@code, 25%);
 }
