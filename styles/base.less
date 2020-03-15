@@ -185,9 +185,8 @@ atom-text-editor .is-focused .line.cursor-line {
   color: @text;
 }
 
-// Changed to @keyword for HUGO support
 .syntax--punctuation.syntax--embedded {
-  color: @keyword;
+  color: @text;
 }
 
 .syntax--string.syntax--interpolated .syntax--punctuation.syntax--embedded {
@@ -228,10 +227,6 @@ atom-text-editor .is-focused .line.cursor-line {
   color: @string;
 }
 
-.syntax--md .syntax--code {
-  color: @regex;
-}
-
 .syntax--md.syntax--link,
 .syntax--md .syntax--hyperlink,
 .syntax--hugo.syntax--link,
@@ -249,6 +244,10 @@ atom-text-editor .is-focused .line.cursor-line {
   color: @instance_variable;
 }
 
-.syntax--parameter.syntax--hugo {
-  color: lighten(@keyword, 15%);
+.syntax--md .syntax--code {
+  color: @code;
+}
+.syntax--parameter.syntax--hugo,
+.syntax--punctuation.syntax--embedded.syntax--hugo {
+  color: lighten(@code, 15%);
 }
