@@ -14,6 +14,8 @@ $stdout.puts "Hello World"
 * List with _emphasized_ text
 * And **bold** text
 
-[1]:https://wikipedia.org
+{{% hugo_short_code param="Hello [link](https://takeonrules.com)" %}}
+With hugo short code
+{{% /hugo_short_code %}}
 
-{{% hugo_short_code param="Hello [link](https://takeonrules.com)" %}}With hugo short code{{% /hugo_short_code %}}
+[1]:https://wikipedia.org

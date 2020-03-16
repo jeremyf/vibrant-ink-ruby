@@ -12,6 +12,8 @@ E.g. syntax highlighting for constants, class names and embedded variables in in
 
 ![Screen shot of Vibrant Ink for Markdown](https://github.com/jeremyf/vibrant-ink-ruby/raw/master/screenshot/markdown-screenshot.png)
 
+Note: The Markdown Highlighting screenshot includes [my personal adjustments](https://github.com/jeremyf/language-markdown) for the [`language-markdown` package](https://github.com/burodepeper/language-markdown). My adjustments helped add context for Hugo parsing.
+
 ## Installation
 
 ```
